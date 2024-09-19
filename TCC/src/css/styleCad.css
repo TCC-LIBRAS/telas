@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+
+:root{
+    --fontePrincipal:"Inter", sans-serif;
+    --corPrincipal: #79d9ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#principalTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    color:var(--corPrincipal);
+}
+
+#principalConteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap: 16px;
+    margin: 35px;
+}
+
+label{
+    font-size: 1rem;
+    font-family: var(--fontePrincipal);
+    font-weight: 500;
+}
+
+#inputCampos{
+    padding: 8px;
+    border-radius: 8px;
+    border: #E0E0E0 1px solid;
+    box-shadow: 0px 1px 2px #00000005 ; 
+}
+
+#principalCamposEsquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#principalCamposCentro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#principalCamposDireita{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#principalBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#principalBotoes input{
+    padding: 15px 30px;
+    font-family: var(--fontePrincipal);
+    background: var(--corPrincipal);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
