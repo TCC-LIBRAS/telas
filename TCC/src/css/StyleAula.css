@@ -33,19 +33,23 @@ body {
 header {
     grid-area: header;
     height: 100px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     padding-left: 240px;
     gap: 60%;
+    border-bottom: 1px solid black;
 }
 
-
+.cargaHoraria{
+    font-size: 17px;
+}
 
 main {
     grid-area: main;
     padding: 20px;
     padding-left: 220px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #img {
@@ -188,12 +192,13 @@ main {
     gap: 8px;
 }
 
+
 .botoes{
     display: flex;
     flex-direction: row;
     gap: 100px;
     width: 420px;
-    margin: 30px 0 150px 0;
+    margin: 30px 0 150px 20px;
 }
 
 .botao-acesso{
@@ -252,7 +257,7 @@ main {
     width: 500px;
 }
 
-.acesso-rapido .botaoSelect{
+.acesso-rapido .opcoes-aulas{
     display: flex;
     background: #ffff;
     padding: 10px 20px;
@@ -261,39 +266,15 @@ main {
     justify-content: space-between;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.botaoSelect  i{
-    font-size: 25px;
-
-}
-
-.acesso-rapido .opcoes-aulas{
-    position: relative;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 10px;
-    background: #ffff;
-}
-
-.acesso-rapido.active .opcoes-aulas{
-    display: none;
-}
-
-.opcoes-aulas .opcoes{
-    display: flex;
-    cursor: pointer;
-    padding: 0 16px;
-    align-items: center;
-    border-radius: 8px;
-    padding: 5px;
-}
-
-.opcoes-aulas .opcoes:hover{
-    background: #f2f2f2;
+    margin: 10px;
 }
 
 .opcoes-aulas a{
     text-decoration: none;
-    color: #0a0a0a;
+    color: black;
+    font-size: 15px;
+}
+
+.container-direito{
+    margin: 0 200px;
 }
