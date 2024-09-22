@@ -278,3 +278,26 @@ main {
 .container-direito{
     margin: 0 200px;
 }
+
+.infos-prof{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.foto-prof{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.perfil-prof{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
