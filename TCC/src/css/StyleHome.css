@@ -1,0 +1,31 @@
+.titulo-conquista{
+    margin-bottom: 20px;
+}
+
+.lista-conquistas{
+   list-style: none; 
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.conquista{
+    display:flex ;
+    background: #f2f2f2;
+    width: 210px;
+    height: 150px;
+    flex-direction: column;
+    padding: 10px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.titulo-conquista-dash{
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    align-items: center;
+}
+
+.num-att{
+    font-size: 50px;
+}
