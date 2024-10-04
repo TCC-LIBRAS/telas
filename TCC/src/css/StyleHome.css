@@ -17,6 +17,8 @@
     padding: 10px;
     gap: 40px;
     border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 }
 
 .titulo-conquista-dash{
@@ -29,3 +31,93 @@
 .num-att{
     font-size: 50px;
 }
+
+
+
+.mods{
+    display: flex;
+    background: red;
+}
+
+.titulo-modulos{
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    background: #FDFDFD;
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 355px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card img {
+    margin: 20px 10px 10px 10px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.main-infos-um{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.main-infos-um h3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-infos-dois{
+    display: flex;
+    box-sizing: border-box;
+    padding: 90px 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-infos-dois p{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-infos-dois button{
+    border: none;
+    background: transparent;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  th, td {
+    
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    border-bottom:1px solid black ;
+  }

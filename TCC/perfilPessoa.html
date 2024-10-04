@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/StylePP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <title>Perfil</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <div id="sidebar_content">
+            <div id="img">
+                <img src="src/imagens/Maãos-removebg-preview 1.png" alt="">
+            </div>
+
+            <ul id="side_items">
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-house" style="color: #000000;"></i>
+                        <span class="item-description">
+                            Home
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-qrcode" style="color: #000000;"></i>
+                        <span class="item-description">
+                            Modulos
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-pen" style="color: #000000;"></i>
+                        <span class="item-description">
+                            Atividades
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-user" style="color: #000000;"></i>
+                        <span class="item-description">
+                            Perfil
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <button id="open_btn">
+                <i id="open_btn_icon" class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <div class="infos-perfil">
+            <div class="Desc-perfil">
+                <img class="fotoPerfil" src="./src/imagens/PessoaPerfil2.jpg">
+                <p class="nome-perfil">Marcos Aquino</p>
+            </div>
+            <div class="infos-contato">
+                <p>Número: 1191234-5678</p>
+                <p>Email: marquin@gmail.com</p>
+            </div>
+        </div>
+        <div class="progresso-perfil">
+            <h1>Meu cursos</h1>
+            <div class="main-infos">
+                <div class="cards-dash">
+                    <ol class="lista-conquistas">
+                        <li class="conquista">
+                            <div class="titulo-conquista-dash">
+                                <span class="material-symbols-outlined">
+                                    dashboard_customize
+                                </span>
+                                <h4>Módulos completos</h4>
+                            </div>
+                            <p class="num-att">7</p>
+                        </li>
+                        <li class="conquista">
+                            <div class="titulo-conquista-dash">
+                                <span class="material-symbols-outlined">
+                                    schedule
+                                </span>
+                                <h4>Horas estudadas</h4>
+                            </div>
+                            <p class="num-att">7</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="tabela-progresso">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Módulos</th>
+                                <th>Lições</th>
+                                <th>Status</th>
+                                <th>Nível</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Iniciando em libras</td>
+                                <td>5</td>
+                                <td>Em andamento</td>
+                                <td>Iniciante</td>
+                            </tr>
+                            <tr>
+                                <td>Iniciando em libras</td>
+                                <td>5</td>
+                                <td>Em andamento</td>
+                                <td>Iniciante</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+        <div class="configs">
+            <h1>Configurações gerais</h1>
+            <label class="titulo-configs">Me chame de </label>
+            <input type="text" value="" class="input-configs" id="nome-opcional">
+
+            <input type="submit" class="confirm" placeholder="Confirmar">
+
+            <label class="titulo-configs">Nova senha </label>
+            <input type="text" value="" class="input-configs" id="nova-senha">
+            <label class="titulo-configs">Confirmar senha </label>
+            <input type="text" value="" class="input-configs" id="confirmar-senha">
+            
+            <input type="submit" class="confirm">
+
+            <label class="titulo-configs">Mudar email </label>
+            <input type="text" value="" class="input-configs" id="novo-email">
+            <label class="titulo-configs">Confirmar com senha </label>
+            <input type="text" value="" class="input-configs" id="confirmar-troca">
+            
+            <input type="submit" class="confirm">
+        </div>
+
+        <input type="submit" class="Sair">
+
+    </main>
+    <script src="./src/javascript/script.js"></script>
+</body>
+</html>
