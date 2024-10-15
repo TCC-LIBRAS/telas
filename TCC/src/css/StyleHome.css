@@ -73,6 +73,11 @@
     border-radius: 10px;
 }
 
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
 .main-infos-um{
     display: flex;
     justify-content: space-evenly;
