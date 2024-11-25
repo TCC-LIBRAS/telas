@@ -1,0 +1,135 @@
+.infos-perfil{
+    margin:50px ;
+}
+    
+.Desc-perfil{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.fotoPerfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nome-perfil{
+    font-size: 30px;
+}
+
+.infos-contato{
+    margin-top: 20px;
+}
+
+.cards-dash{
+    width: 100%;
+}
+
+.lista-conquistas{
+    margin-left: 50px;
+    list-style: none; 
+    display: flex;
+    gap: 40px;
+ }
+ 
+ .conquista{
+     display:flex ;
+     box-sizing: border-box;
+     background: #f2f2f2;
+     height: 150px;
+     flex-direction: column;
+     padding: 10px;
+     gap: 50px;
+     border-radius: 10px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     
+}
+
+.titulo-conquista-dash{
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    align-items: center;
+}
+
+.num-att{
+    font-size: 50px;
+}
+
+.progresso-perfil h1{
+    margin: 20px;
+}
+
+.infos-usuarios h1{
+    margin: 20px;
+}
+
+
+
+
+
+.tabela-progresso{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    gap: 8px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background: #f2f2f2;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+  th, td {
+    padding: 10px;
+    text-align: center;
+}
+  th {
+    border-bottom:1px solid black ;
+}
+
+.configs{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.titulo-configs{
+    font-size: 16px;
+}
+
+.input-configs{
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#nome-opcional,#confirmar-senha, #confirmar-troca{
+    margin-bottom: 10px;
+}
+
+
+.confirm{
+    width: 10%;
+    margin-bottom: 30px;
+    background: #2196F3;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.Sair{
+    width: 10%;
+    margin-bottom: 30px;
+    background: red;
+    border: none;
+    padding: 5px;
+    border-radius: 8px; 
+    font-size: medium;
+}
