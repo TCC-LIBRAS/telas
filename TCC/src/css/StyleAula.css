@@ -16,7 +16,7 @@ body{
     grid-template-columns: 325px 1fr; 
     grid-template-rows: 100px 1fr; 
     min-height: 100vh;
-    background: #d4d5d8;
+    background: #F3F5FC;
     margin: 0;
     padding: 0;
 }
@@ -145,7 +145,7 @@ main {
 }
 
 .side-item.active{
-    background: #f1efef;
+    background: #a8a6a6;
 }
 
 .side-item i{
