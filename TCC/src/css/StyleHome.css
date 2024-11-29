@@ -117,6 +117,8 @@
 table {
     width: 90%;
     border-collapse: collapse;
+    background: #FDFDFD;
+    border-radius: 8px;
   }
   th, td {
     

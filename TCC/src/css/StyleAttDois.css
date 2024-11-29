@@ -134,6 +134,7 @@ main {
 }
 .question{
     margin-bottom: 20px;
+
 }
 .question p{
     font-size: 40px;
@@ -154,6 +155,7 @@ main {
 }
 .feedback{
     font-size: 20px;
+    margin:10px;
 }
 .atividade{
     display:flex;

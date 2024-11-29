@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/StyleAula.css">
+    <link rel="stylesheet" href="./src/css/ContLeitura.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Aula</title>
@@ -21,7 +21,7 @@
             <h1 class="titulo-atividades">Atividades</h1>
 
             <ul id="side_items">
-                <li class="side-item active">
+                <li class="side-item">
                     <a href="AulaAlfabeto.html">
                         <i class="material-symbols-outlined">
                             play_circle
@@ -32,7 +32,7 @@
                     </a>
                 </li>
 
-                <li class="side-item ">
+                <li class="side-item">
                     <a href="ContLeitura.html">
                         <i class="material-symbols-outlined">
                             play_circle
@@ -43,7 +43,7 @@
                     </a>
                 </li>
 
-                <li class="side-item ">
+                <li class="side-item active">
                     <a href="ContLeituraDois.html">
                         <i class="material-symbols-outlined">
                             play_circle
@@ -76,7 +76,7 @@
                     </a>
                 </li>
 
-                <li class="side-item ">
+                <li class="side-item">
                     <a href="AtividadeDois.html">
                         <i class="material-symbols-outlined">
                             play_circle
@@ -96,25 +96,20 @@
     </header>
 
     <main>
-        <div class="conteudo-video">
-            <video controls>
-                <source src="./src/imagens/Alfabeto em Vídeo.mp4">
-            </video>
-            <div class="conteudo-abaixo">
-
-                <p class="texto-video"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellat odit, saepe tempore ratione minus quas quis quod quo 
-                    commodi voluptas, non rem explicabo laboriosam hic laudantium error delectus mollitia!
-                </p>
-                <div class="botoes">
-                    <a href="ContLeitura.html" class="btn-voltar">Próxima atividade</a>
-                </div>
-                
-
-                
+        <div class="pdf-container">
+            <img src="./src/imagens/PDF.png" alt="Ícone de PDF" class="pdf-icon">
+            <div class="pdf-info">
+                <p class="pdf-title">As contribuições das libras na educação de jovens e adultos</p>
+                <a href="./src/imagens/AS CONTRIBUIÇÕES DO HAND TALK PARA O ENSINO DO ALUNO SURDO NA EDUCAÇÃO DE JOVENS E ADULTOS.pdf" download class="download-link">Baixar PDF</a>
             </div>
-            
+        </div>
+        
+        <div class="botoes">
+            <a href="AulaAlfabeto.html" class="btn-passar">Voltar atividade</a>
+            <a href="AulaNumeros.html" class="btn-voltar">Próxima atividade</a>
         </div>
     </main>
+
+    
 </body>
 </html>

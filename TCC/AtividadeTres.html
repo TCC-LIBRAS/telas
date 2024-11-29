@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/StyleAttDois.css">
+    <link rel="stylesheet" href="./src/css/StyleAtt.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -23,49 +23,29 @@
             <h1 class="titulo-atividades">Atividades</h1>
             <ul id="side_items">
                 <li class="side-item">
-                    <a href="AulaAlfabeto.html">
+                    <a href="AulaOI.html">
                         <i class="material-symbols-outlined">
                             play_circle
                         </i>
                         <p class="item-description">
-                            Alfabeto
-                        </p>
-                    </a>
-                </li>
-                <li class="side-item ">
-                    <a href="ContLeitura.html">
-                        <i class="material-symbols-outlined">
-                            play_circle
-                        </i>
-                        <p class="item-description">
-                            Contéudo para leitura
+                            Cumprimento: Oi
                         </p>
                     </a>
                 </li>
 
-                <li class="side-item ">
-                    <a href="ContLeituraDois.html">
-                        <i class="material-symbols-outlined">
-                            play_circle
-                        </i>
-                        <p class="item-description">
-                            Contéudo para leitura
-                        </p>
-                    </a>
-                </li>
-
-                <li class="side-item ">
-                    <a href="AulaNumeros.html">
-                        <i class="material-symbols-outlined">
-                            play_circle
-                        </i>
-                        <p class="item-description">
-                            Números
-                        </p>
-                    </a>
-                </li>
                 <li class="side-item">
-                    <a href="AtividadeUm.html">
+                    <a href="AulaEuChamo.html">
+                        <i class="material-symbols-outlined">
+                            play_circle
+                        </i>
+                        <p class="item-description">
+                            Cumprimento: Eu me chamo...
+                        </p>
+                    </a>
+                </li>
+
+                <li class="side-item active">
+                    <a href="AtividadeTres.html">
                         <i class="material-symbols-outlined">
                             play_circle
                         </i>
@@ -74,8 +54,53 @@
                         </p>
                     </a>
                 </li>
-                <li class="side-item active">
-                    <a href="AtividadeDois.html">
+
+                <li class="side-item ">
+                    <a href="AulaBomdia.html">
+                        <i class="material-symbols-outlined">
+                            play_circle
+                        </i>
+                        <p class="item-description">
+                            Cumprimento: Bom dia
+                        </p>
+                    </a>
+                </li>
+
+                <li class="side-item ">
+                    <a href="AulaBoaTarde.html">
+                        <i class="material-symbols-outlined">
+                            play_circle
+                        </i>
+                        <p class="item-description">
+                            Cumprimento: Boa tarde
+                        </p>
+                    </a>
+                </li>
+
+                <li class="side-item ">
+                    <a href="AulaBoaNoite.html">
+                        <i class="material-symbols-outlined">
+                            play_circle
+                        </i>
+                        <p class="item-description">
+                            Cumprimento: Boa noite
+                        </p>
+                    </a>
+                </li>
+
+                <li class="side-item ">
+                    <a href="AulaTchau.html">
+                        <i class="material-symbols-outlined">
+                            play_circle
+                        </i>
+                        <p class="item-description">
+                            Cumprimento: Tchau
+                        </p>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="AtividadeQuatro.html">
                         <i class="material-symbols-outlined">
                             play_circle
                         </i>
@@ -95,38 +120,38 @@
         <div class="container">
             <h1>Quiz</h1>
             <div class="question">
-                <p>Qual número é representado em Libras com a mão aberta<br> e todos os dedos estendidos?</p>
+                <p>Como se diz "Oi" em Libras?</p>
             </div>
             <div class="options">
                 <label>
-                    <input type="radio" name="option" value="4">
-                    4
+                    <input type="radio" name="option" value="Mão em formato de O com mindinho levantado">
+                    Mão em formato de "O" com mindinho levantado
                 </label><br>
                 <label>
-                    <input type="radio" name="option" value="5">
-                    5
+                    <input type="radio" name="option" value="Mão fechada com o polegar levantado">
+                    Mão fechada com o polegar levantado
                 </label><br>
                 <label>
-                    <input type="radio" name="option" value="10">
-                    10
+                    <input type="radio" name="option" value="Fazendo o sinal de ok com os dedos">
+                    Fazendo o sinal de "ok" com os dedos
                 </label><br>
                 <label>
-                    <input type="radio" name="option" value="2">
-                    2
+                    <input type="radio" name="option" value="Mão aberta sobre o peito">
+                    Mão aberta sobre o peito
                 </label>
             </div>
             <div class="btn-enviar"><button id="submit">Enviar</button></div>
             <div class="feedback" id="feedback"></div>
 
             <div class="botoes">
-                <a href="AtividadeUm.html" class="btn-passar">Voltar atividade</a>
-                <a href="AulaOI.html" class="btn-voltar">Próxima atividade</a>
+                <a href="AulaNumeros.html" class="btn-passar">Voltar atividade</a>
+                <a href="AtividadeDois.html" class="btn-voltar">Próxima atividade</a>
             </div>
         </div>
     </main>
 </body>
 <script>
-    const correctAnswer = "5";
+    const correctAnswer = "Mão em formato de O com mindinho levantado";
     const submitButton = document.getElementById("submit");
     const feedback = document.getElementById("feedback");
     let wrongAttempts = 0; // Contador de tentativas erradas

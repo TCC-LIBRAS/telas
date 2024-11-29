@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li class="side-item ">
-                    <a href="Home.html">
+                    <a href="ContLeitura.html">
                         <i class="material-symbols-outlined">
                             play_circle
                         </i>
@@ -42,6 +42,18 @@
                         </p>
                     </a>
                 </li>
+
+                <li class="side-item ">
+                    <a href="ContLeituraDois.html">
+                        <i class="material-symbols-outlined">
+                            play_circle
+                        </i>
+                        <p class="item-description">
+                            Contéudo para leitura
+                        </p>
+                    </a>
+                </li>
+
                 <li class="side-item ">
                     <a href="AulaNumeros.html">
                         <i class="material-symbols-outlined">
@@ -53,7 +65,7 @@
                     </a>
                 </li>
                 <li class="side-item active">
-                    <a href="Home.html">
+                    <a href="AtividadeUm.html">
                         <i class="material-symbols-outlined">
                             play_circle
                         </i>
@@ -63,7 +75,7 @@
                     </a>
                 </li>
                 <li class="side-item ">
-                    <a href="Home.html">
+                    <a href="AtividadeDois.html">
                         <i class="material-symbols-outlined">
                             play_circle
                         </i>
@@ -83,24 +95,24 @@
         <div class="container">
             <h1>Quiz</h1>
             <div class="question">
-                <p>O que significa a sigla Libras?</p>
+                <p>Qual é a representação da letra "A" em Libras?</p>
             </div>
             <div class="options">
                 <label>
-                    <input type="radio" name="option" value="Londres">
-                    Língua Brasileira dos Surdos
+                    <input type="radio" name="option" value="Mão fechada com o polegar para o lado">
+                    Mão fechada com o polegar para o lado
                 </label><br>
                 <label>
-                    <input type="radio" name="option" value="Língua Brasileira de Sinais">
-                    Língua Brasileira de Sinais
+                    <input type="radio" name="option" value="Mão aberta com os dedos estendidos">
+                    Mão aberta com os dedos estendidos
                 </label><br>
                 <label>
-                    <input type="radio" name="option" value="Roma">
-                    Linguagem Brasileira de Sinais
+                    <input type="radio" name="option" value="Mão em formato de L">
+                    Mão em formato de "L"
                 </label><br>
                 <label>
-                    <input type="radio" name="option" value="Berlim">
-                    Linguagem Brasileira dos Surdos
+                    <input type="radio" name="option" value="Mão fechada com o dedo indicador apontando para cima">
+                    Mão fechada com o dedo indicador apontando para cima
                 </label>
             </div>
             <div class="btn-enviar"><button id="submit">Enviar</button></div>
@@ -108,13 +120,13 @@
 
             <div class="botoes">
                 <a href="AulaNumeros.html" class="btn-passar">Voltar atividade</a>
-                <a href="" class="btn-voltar">Próxima atividade</a>
+                <a href="AtividadeDois.html" class="btn-voltar">Próxima atividade</a>
             </div>
         </div>
     </main>
 </body>
 <script>
-    const correctAnswer = "Língua Brasileira de Sinais";
+    const correctAnswer = "Mão fechada com o polegar para o lado";
     const submitButton = document.getElementById("submit");
     const feedback = document.getElementById("feedback");
     let wrongAttempts = 0; // Contador de tentativas erradas

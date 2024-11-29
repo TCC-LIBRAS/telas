@@ -83,7 +83,8 @@ label{
 
 a{
     display: flex;
-    text-decoration: none;
     margin: 6px 0 0 6px ;
     font-size: 14px;
+    color: black;
+    font-family: var(--fontePrincipal);
 }
