@@ -10,18 +10,18 @@
     <main id="principal">
         <h1 id="principalTitulo">Recuperar senha</h1>
         <section id="principalConteudo">
+            
+        <form action="src/php/recuperar_senha.php" method="post">
             <div id="principalCampos">
-                <label for="email">E-mail</label>
-                <input type="text" name="email" id="inputCampos" placeholder="Insira seu email">
-                <label for="telefone">Telefone</label>
-                <input type="text" name="telefone" id="inputCampos" placeholder="Insira seu telefone">
-            </div>
+                <label for="identificador">Usuário ou Email:</label>
+                <input type="text" name="identificador" id="inputCampos" placeholder="Insira seu email ou nick">
+                </div>
 
             <div id="principalBotoes">
-            <input type="submit" value="Voltar">
-            <input type="button" value="Enviar">
+                <input type="button" value="Voltar" onclick="window.location.href='index.php';">
+                <input type="submit" value="Enviar">
             </div>
-
+        </form>
         </section>
     </main>
 </body>
