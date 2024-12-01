@@ -29,7 +29,7 @@
 
             <ul id="side_items">
                 <li class="side-item">
-                    <a href="Home.html">
+                    <a href="Home.php">
                         <i class="fa-solid fa-house" style="color: #000000;"></i>
                         <span class="item-description">
                             Home
@@ -38,7 +38,7 @@
                 </li>
 
                 <li class="side-item active">
-                    <a href="Modulos.html">
+                    <a href="Modulos.php">
                         <i class="fa-solid fa-qrcode" style="color: #000000;"></i>
                         <span class="item-description">
                             Modulos
@@ -47,7 +47,7 @@
                 </li>
 
                 <li class="side-item">
-                    <a href="perfilPessoa.html">
+                    <a href="perfilPessoa.php">
                         <i class="fa-solid fa-user" style="color: #000000;"></i>
                         <span class="item-description">
                             Perfil
