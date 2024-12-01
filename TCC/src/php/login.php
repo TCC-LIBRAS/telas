@@ -48,7 +48,7 @@ if ($stmt->num_rows > 0) {
         if ($nivel == 'admin') {
             header('Location: http://localhost/tcc/painel_admin.php'); // Página de administração
         } else {
-            header('Location: http://localhost/tcc/inicio.php'); // Página normal do usuário
+            header('Location: http://localhost/tcc/home.php'); // Página normal do usuário
         }
         exit();
     } else {
