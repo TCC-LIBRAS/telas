@@ -141,7 +141,7 @@
 
                 <div>
                     <div class="card">
-                       
+                       <a href="Mod.acessado.php">
                         <div class="card-main">
                             <img src="./src/imagens/Pessoas libras.png">
                             <div class="main-infos-um">
@@ -158,7 +158,7 @@
 
                 <div>
                     <div class="card">
-                        
+                        <a href="Mod.acessado.php">
                         <div class="card-main">
                             <img src="./src/imagens/ImagemModulo1.png">
                             <div class="main-infos-um">
