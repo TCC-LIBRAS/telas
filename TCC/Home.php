@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/StyleHome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -28,7 +28,7 @@
 
             <ul id="side_items">
                 <li class="side-item active">
-                    <a href="Home.php">
+                    <a href="Home.html">
                         <i class="fa-solid fa-house" style="color: #000000;"></i>
                         <span class="item-description">
                             Home
@@ -37,7 +37,7 @@
                 </li>
 
                 <li class="side-item">
-                    <a href="Modulos.php">
+                    <a href="Modulos.html">
                         <i class="fa-solid fa-qrcode" style="color: #000000;"></i>
                         <span class="item-description">
                             Modulos
@@ -46,7 +46,7 @@
                 </li>
 
                 <li class="side-item">
-                    <a href="perfilPessoa.php">
+                    <a href="perfilPessoa.html">
                         <i class="fa-solid fa-user" style="color: #000000;"></i>
                         <span class="item-description">
                             Perfil
@@ -59,6 +59,18 @@
                 <i id="open_btn_icon" class="fa-solid fa-chevron-right" style="color: #000000;"></i>
             </button>
         </div>
+
+        <div class="sair">
+            <button type="button"class="btn_sair" value="Sair">
+                <i class="material-symbols-outlined">
+                    logout
+                </i>
+                <span>
+                    Sair
+                </span>
+            </button>
+        </div>
+
     </nav>
     <main>
         <div class="conquistas">

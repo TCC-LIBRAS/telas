@@ -6,16 +6,10 @@ document.getElementById('open_btn').addEventListener('click', function () {
 const data = [
     {
         image: "./src/imagens/imagemModulo1.png",
-        title: "O que é Libras e como foi criada",
-        description: "20 lições 40h",
+        title: "Alfabeto, Números e gestos diários",
+        description: "4 lições 30min",
         button: "<span class='material-symbols-outlined'>bookmark </span>"
         
-    },
-    {
-        image: "./src/imagens/imagemModulo2.png",
-        title: "Primeiros contatos com as libras",
-        description: "20 lições 40h",
-        button: "<span class='material-symbols-outlined'>bookmark </span>"
     }
 ];
 
@@ -30,7 +24,7 @@ const displayData = data => {
         <div class = "card-main">
             <img src="${e.image}">
             <div class = "main-infos-um">
-                <h3>${e.title}</h3>
+                <a href="Mod.acessado.html"><h3>${e.title}</h3></a>
             </div>
             <div class = "main-infos-dois">
                 <p>${e.description}</p>

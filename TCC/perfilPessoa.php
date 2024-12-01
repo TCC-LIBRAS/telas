@@ -154,6 +154,17 @@ $conn->close();
                 <i id="open_btn_icon" class="fa-solid fa-chevron-right" style="color: #000000;"></i>
             </button>
         </div>
+
+        <div class="sair">
+            <button type="button"class="btn_sair" value="Sair">
+                <i class="material-symbols-outlined">
+                    logout
+                </i>
+                <span>
+                    Sair
+                </span>
+            </button>
+        </div>
     </nav>
     <main>
         <div class="infos-perfil">
