@@ -28,7 +28,7 @@
 
             <ul id="side_items">
                 <li class="side-item active">
-                    <a href="Home.html">
+                    <a href="Home.php">
                         <i class="fa-solid fa-house" style="color: #000000;"></i>
                         <span class="item-description">
                             Home
@@ -37,7 +37,7 @@
                 </li>
 
                 <li class="side-item">
-                    <a href="Modulos.html">
+                    <a href="Modulos.php">
                         <i class="fa-solid fa-qrcode" style="color: #000000;"></i>
                         <span class="item-description">
                             Modulos
@@ -46,7 +46,7 @@
                 </li>
 
                 <li class="side-item">
-                    <a href="perfilPessoa.html">
+                    <a href="perfilPessoa.php">
                         <i class="fa-solid fa-user" style="color: #000000;"></i>
                         <span class="item-description">
                             Perfil
@@ -85,7 +85,17 @@
                     </div>
                     <p class="num-att">7</p>
                 </li>
-                
+                 <li class="conquista">
+                    <div class="titulo-conquista-dash">
+                        <span class="material-symbols-outlined">
+                            check
+                        </span>
+                        <h4>Certificados</h4>
+                    </div>
+                    <p class="num-att">
+                  7
+                    </p>
+                </li>
                 <li class="conquista">
                     <div class="titulo-conquista-dash">
                         <span class="material-symbols-outlined">
@@ -112,7 +122,7 @@
             <div class="container">
                 <div>
                     <div class="card">
-                        <a href="Mod.acessado.html">
+                        <a href="Mod.acessado.php">
                         <div class="card-main">
                             <img src="./src/imagens/ImagemModulo1.png">
                             <div class="main-infos-um">
