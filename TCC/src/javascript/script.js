@@ -24,7 +24,7 @@ const displayData = data => {
         <div class = "card-main">
             <img src="${e.image}">
             <div class = "main-infos-um">
-                <a href="Mod.acessado.html"><h3>${e.title}</h3></a>
+                <a href="Mod.acessado.php"><h3>${e.title}</h3></a>
             </div>
             <div class = "main-infos-dois">
                 <p>${e.description}</p>
